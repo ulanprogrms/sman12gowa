@@ -1,0 +1,1 @@
+# sman12gowa
