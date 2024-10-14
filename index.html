@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>SMA NEGERI 12 GOWA</title>
+    <style>
+        .back-to-top {
+            position: fixed; /* Mengatur posisi tetap */
+            bottom: 20px; /* Jarak dari bagian bawah */
+            left: 20px; /* Jarak dari bagian kiri */
+            background-color: #007bff; /* Warna latar belakang */
+            color: white; /* Warna teks */
+            border: none; /* Menghapus border */
+            border-radius: 5px; /* Sudut melengkung */
+            padding: 10px 15px; /* Padding untuk tombol */
+            display: none; /* Menyembunyikan tombol awalnya */
+            cursor: pointer; /* Menampilkan pointer saat hover */
+            z-index: 1000; /* Agar tombol berada di atas elemen lainnya */
+        }
+
+        .back-to-top:hover {
+            background-color: #0056b3; /* Warna latar belakang saat hover */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="header-content">
+        <img src="logo.png" alt="Logo SMA Negeri 12 Gowa" class="logo">
+        <h1>SMA NEGERI 12 GOWA</h1>
+        <p>Wujudkan Generasi Cerdas dan Berkarakter</p>
+    </div>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#about">Tentang Kami</a></li>
+        <li><a href="#visi-misi">Visi & Misi</a></li>
+        <li><a href="#organisasi">Organisasi</a></li>
+        <li><a href="#gallery">Galeri</a></li>
+        <li><a href="#lokasi">Lokasi</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+    </ul>
+</nav>
+
+<!-- Hero Banner -->
+<section class="hero-banner" id="home">
+    <h2>Selamat Datang di SMA Negeri 12 Gowa</h2>
+    <p>Menuju Pendidikan yang Lebih Baik</p>
+</section>
+
+<!-- Chat Functionality Placeholder -->
+<div class="chat-container">
+    <button id="chatButton" class="chat-button">
+        <i class="fas fa-comment-dots"></i>
+    </button>
+    <div id="chatBox" class="chat-box" style="display:none;">
+        <h3>Chat dengan Kami</h3>
+        <div class="chat-content">
+            <p>Selamat datang! Ada yang bisa kami bantu?</p>
+        </div>
+        <input type="text" placeholder="Ketik pesan...">
+    </div>
+</div>
+
+<section id="about" class="about-section">
+    <h2>Tentang SMA Negeri 12 Gowa</h2>
+    <p>SMAN 12 Gowa adalah sebuah sekolah menengah atas negeri yang berlokasi di Jl. Pendidikan, Desa/Kelurahan Majannang, Kecamatan Parigi, Kabupaten Gowa. 
+        merupakan sekolah menengah atas negeri yang berdiri pada tahun 2009. Sekolah ini memiliki NPSN 40314466 
+        dan menyelenggarakan pendidikan selama pagi hari selama 5 hari dalam seminggu. SMAN 12 Gowa merupakan pilihan tepat 
+        bagi siswa yang ingin melanjutkan pendidikan menengah atas di Kabupaten Gowa. Dengan akreditasi B dan fasilitas yang memadai, 
+        sekolah ini siap membantu siswa dalam mencapai prestasi akademik dan mengembangkan potensi diri.</p> 
+    <div class="kepala-sekolah">
+        <h3>Kepala Sekolah</h3>
+        <img src="kepala sekolah.png" alt="Kepala Sekolah" class="foto-kepala-sekolah">
+        <p>Drs. M. Yusuf, M.M</p>
+    </div>
+</section>
+
+<section id="visi-misi" class="visi-misi-section">
+    <h2>Visi dan Misi SMA Negeri 12 Gowa</h2>
+    <p><strong>Visi:</strong> Mewujudkan sekolah yang unggul dalam prestasi akademik dan non-akademik serta membentuk generasi yang berkarakter, beriman, dan berbudaya.</p>
+    <p><strong>Misi:</strong></p>
+    <p>1. Meningkatkan kualitas pendidikan melalui proses pembelajaran yang inovatif dan berpusat pada siswa.</p>
+    <p>2. Mengembangkan potensi siswa dalam bidang akademik dan non-akademik sesuai minat dan bakat mereka.</p>
+    <p>3. Menanamkan nilai-nilai karakter, keimanan, dan kedisiplinan dalam kehidupan sehari-hari siswa.</p>
+    <p>4. Menciptakan lingkungan belajar yang aman, nyaman, dan kondusif.</p>
+    <p>5. Meningkatkan kerjasama dengan berbagai pihak dalam rangka mendukung kegiatan pendidikan dan pengembangan siswa.</p>
+</section>
+
+<section id="organisasi" class="organisasi-section">
+    <h2>Organisasi di Sekolah</h2>
+    <div class="organization-container">
+        <div class="organization-card">
+            <h3>OSIS</h3>
+            <p>Organisasi Siswa Intra Sekolah yang bertugas dalam kegiatan siswa.</p>
+        </div>
+        <div class="organization-card">
+            <h3>MPK</h3>
+            <p>Majelis Perwakilan Kelas yang merupakan perwakilan dari masing-masing kelas.</p>
+        </div>
+        <div class="organization-card">
+            <h3>PMR</h3>
+            <p>Pangkalan Medis Remaja yang fokus pada kegiatan pertolongan pertama.</p>
+        </div>
+        <div class="organization-card">
+            <h3>Rohis</h3>
+            <p>Rohani Islam yang mengatur kegiatan keagamaan siswa.</p>
+        </div>
+        <div class="organization-card">
+            <h3>Pramuka</h3>
+            <p>Gerakan Pramuka untuk membangun karakter dan kepemimpinan.</p>
+        </div>
+        <div class="organization-card">
+            <h3>EMC</h3>
+            <p>English Movie Club yang memperkenalkan bahasa Inggris melalui film.</p>
+        </div>
+        <div class="organization-card">
+            <h3>Sanggar Seni</h3>
+            <p>Tempat berkumpulnya siswa yang berbakat dalam seni.</p>
+        </div>
+        <div class="organization-card">
+            <h3>Arena Sport</h3>
+            <p>Organisasi yang mengatur kegiatan olahraga di sekolah.</p>
+        </div>
+    </div>
+</section>
+
+<section id="gallery" class="gallery-section">
+    <h2 class="gallery-title">Galeri Sekolah</h2>
+    <div class="gallery-container">
+        <img src="tentangclassico.jpg" alt="classico" class="gambar-classico" onclick="openLightbox(this)">
+        <img src="sman12gowa.png" alt="Gambar Sekolah" class="gambar-sekolah" onclick="openLightbox(this)">
+        <img src="inidia.jpg" alt="tentang classico" class="gambar-inidia" onclick="openLightbox(this)">
+    </div>
+</section>
+
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <span class="close-lightbox">&times;</span>
+    <img id="lightbox-img" src="">
+    <a id="download-btn" class="download-btn" href="" download>Download</a>
+</div>
+
+<!-- Section Media Sosial -->
+<section id="social-media" class="social-media-section">
+    <h3>Ikuti Kami di Media Sosial</h3>
+    <div class="social-links">
+        <a href="https://www.youtube.com/@SMAN12GOWA" target="_blank">
+            <img src="logo youtube.png" alt="YouTube SMA Negeri 12 Gowa">
+            <p>YouTube SMA Negeri 12 Gowa</p>
+        </a>
+        <a href="https://www.instagram.com/sman12gowa" target="_blank">
+            <img src="logo instagram.png" alt="Instagram SMA Negeri 12 Gowa">
+            <p>Instagram SMA Negeri 12 Gowa</p>
+        </a>
+    </div>
+</section>
+
+<section id="lokasi" class="lokasi-section">
+    <h2>Lokasi Sekolah</h2>
+    <p>Alamat: Jl. Pendidikan No. 12, Gowa, Sulawesi Selatan.</p>
+    <div class="map" id="map">
+        <!-- Masukkan iframe Google Maps di sini -->
+        <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.6192231540677!2d119.88219291541757!3d-5.122648245537802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2db0e371f4859c61%3A0xa92e3757e42894ae!2sSMA%20Negeri%2012%20Gowa!5e0!3m2!1sen!2sid!4v1697220998561!5m2!1sen!2sid" 
+            width="600" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy"></iframe>
+    </div>
+</section>
+
+<section id="kontak" class="kontak-section">
+    <h2>Kontak</h2>
+    <p>Email: <a href="mailto:info@sman12gowa.sch.id">info@sman12gowa.sch.id</a></p>
+    <p>Telepon: +62 81222266579</p>
+    <p><a href="https://instagram.com/wulanchyanngsh" target="_blank">
+        <i class="fab fa-instagram"></i> @wulanchyanngsh
+    </a></p>
+</section>
+
+<!-- Tambahkan CDN Font Awesome untuk ikon Instagram -->
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<!-- Tombol Kembali ke Atas -->
+<button class="back-to-top" id="backToTopBtn">
+    <i class="fas fa-arrow-up"></i> Kembali ke Atas
+</button>
+
+<script>
+    function openLightbox(imgElement) {
+        const lightbox = document.getElementById("lightbox");
+        const lightboxImg = document.getElementById("lightbox-img");
+        const downloadBtn = document.getElementById("download-btn");
+
+        lightbox.style.display = "flex";
+        lightboxImg.src = imgElement.src;
+        downloadBtn.href = imgElement.src;
+    }
+
+    function closeLightbox() {
+        const lightbox = document.getElementById("lightbox");
+        lightbox.style.display = "none";
+    }
+
+    document.querySelector('.close-lightbox').addEventListener('click', closeLightbox);
+</script>
+
+<script>
+    // Mengatur scroll halus untuk semua tautan
+    document.querySelectorAll('nav a').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+
+    // Menampilkan tombol Kembali ke Atas saat scroll ke bawah
+    window.onscroll = function() {
+        const backToTopBtn = document.getElementById("backToTopBtn");
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            backToTopBtn.style.display = "block";
+        } else {
+            backToTopBtn.style.display = "none";
+        }
+    };
+
+    // Mengatur fungsi klik untuk tombol Kembali ke Atas
+    document.getElementById("backToTopBtn").onclick = function() {
+        window.scrollTo({top: 0, behavior: 'smooth'});
+    };
+
+    // Mengatur chat box
+    const chatButton = document.getElementById("chatButton");
+    const chatBox = document.getElementById("chatBox");
+    chatButton.addEventListener("click", function() {
+        chatBox.style.display = chatBox.style.display === "none" ? "block" : "none";
+    });
+</script>
+</body>
+</html>

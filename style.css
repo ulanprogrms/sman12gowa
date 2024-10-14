@@ -1,0 +1,247 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #0056b3;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 100px;
+}
+
+nav {
+    background: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0056b3;
+    font-weight: bold;
+}
+
+.hero-banner {
+    background: url('guruku.jpg') no-repeat center center;
+    background-size: cover;
+    background-color: rgba(214, 213, 213, 0.5); /* Warna putih dengan transparansi 50% */
+    background-blend-mode: overlay; /* Menggabungkan gambar dan warna */
+    color: rgb(31, 32, 36);
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.chat-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.chat-button {
+    background: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.chat-box {
+    display: none;
+    background: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    padding: 10px;
+    position: absolute;
+    bottom: 70px;
+    right: 0;
+    border-radius: 5px;
+}
+
+.about-section, .visi-misi-section, .organisasi-section, .gallery-section, .lokasi-section, .kontak-section {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;  
+}
+.kepala-sekolah {
+    text-align: center;
+}
+
+.foto-kepala-sekolah {
+    width: 150px;
+    border-radius: 50%;
+}
+
+h2 {
+    color: #0056b3;
+    text-align: center;
+}
+
+.organization-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.organization-card {
+    background: #e7f1ff;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.organization-card:hover {
+    transform: translateY(-5px);
+}
+
+.organization-card h3 {
+    color: #0056b3;
+    margin-bottom: 10px;
+}
+
+.organization-card p {
+    color: #333;
+    font-size: 14px;
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.gallery-section {
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+.gallery-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 0 20px;
+}
+.gallery-container img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.gallery-container img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.lightbox img {
+    max-width: 80%;
+    max-height: 80%;
+    border-radius: 10px;
+}
+.download-btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.download-btn:hover {
+    background-color: #0056b3;
+}
+.close-lightbox {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+.social-media-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-top: 30px;
+}
+
+.social-media-section h3 {
+    font-size: 22px;
+    color: #0056b3;
+    margin-bottom: 20px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-links img {
+    width: 40px;              /* Menyesuaikan ukuran ikon */
+    transition: transform 0.3s ease;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);     /* Efek zoom saat ikon di-hover */
+}
+
+.map {
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.kontak-section p {
+    text-align: center;
+}
